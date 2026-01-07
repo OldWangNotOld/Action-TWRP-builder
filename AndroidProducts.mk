@@ -1,10 +1,14 @@
-# Android device tree for Xiaomi 25032RP42C (jinghu)
-
-```
 #
 # Copyright (C) 2025 The Android Open Source Project
 # Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-```
+
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_jinghu.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_jinghu-user \
+    omni_jinghu-userdebug \
+    omni_jinghu-eng
